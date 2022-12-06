@@ -1,5 +1,3 @@
-import re
-
 file = open("day6_input.txt")
 
 code = list(file.readline())
