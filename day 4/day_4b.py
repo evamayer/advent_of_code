@@ -17,3 +17,5 @@ for element in stripped_list:
         counts += 1
 
 print(counts)
+
+file.close()

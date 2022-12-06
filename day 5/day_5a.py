@@ -37,3 +37,5 @@ for piles in stacks:
     result.append(top_crate)
 
 print("".join(result))
+
+file.close()
