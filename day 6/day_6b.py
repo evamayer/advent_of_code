@@ -2,11 +2,9 @@ file = open("day6_input.txt")
 
 code = list(file.readline())
 
-result = None
 i = 0
 for element in code:
-    four_slice = code[i:i+14]
-    if len(four_slice) == len(set(four_slice)):
+    if len(set(code[i:i+14])) == 14:
         break
     else:  
         i += 1   
